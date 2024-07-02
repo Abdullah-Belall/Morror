@@ -75,7 +75,7 @@ export default function MovieContent({ movieId }) {
         ) : (
           ""
         )}
-        <Image src={bg ? `https://image.tmdb.org/t/p/w500` + bg : bgImg} fill alt="err" className="position-fixed start-0 w-100 h-100" style={{ zIndex: "-1" }} />
+        <Image src={bg ? `https://image.tmdb.org/t/p/w500` + bg : "https://pub-7b3c4b6d7e7a4248b4faec6a06591b68.r2.dev/bgImg.jpeg"} fill alt="err" className="position-fixed start-0 w-100 h-100" style={{ zIndex: "-1" }} />
         <div className="position-fixed top-0 start-0 w-100 h-100" style={{ zIndex: "-1", backgroundColor: "rgba(0, 0, 0, 0.63)" }}></div>
         <div className="moviePageContent d-flex flex-column align-items-center align-items-md-start">
           {isSmallScreen ? (
