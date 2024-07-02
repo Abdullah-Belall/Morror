@@ -8,7 +8,7 @@ export default function CardMovie({ id, title, titfs, pad, rate, poster }) {
   return (
     <Link href={`/spmovie/${id}`}>
       <div data-id={`${id}`} className="movieCard main-rounded position-relative d-flex flex-column justify-content-between">
-        <Image src={`https://image.tmdb.org/t/p/w500${poster}`} fill style={{ objectFit: "cover" }} className="main-rounded position-absolute start-0 top-0 w-100 h-100" alt="no image" />
+        <Image src={`https://image.tmdb.org/t/p/w300${poster}`} fill style={{ objectFit: "cover" }} className="main-rounded position-absolute start-0 top-0 w-100 h-100" alt="no image" />
         <div className="cardHead px-3 pt-3 d-flex flex-column justify-content-start position-relative">
           <h2 className={`main-color pointer ${titfs}`}>{title}</h2>
           <div className="stars d-flex gap-1">
