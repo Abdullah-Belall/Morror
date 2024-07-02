@@ -2,7 +2,6 @@
 import CardMovie from "@/app/Components/CardMovie";
 import axios from "axios";
 import Image from "next/image";
-import bgImg from "@/public/Images/bgImg.jpg";
 import BackButton from "@/app/Components/goBack";
 import { useEffect, useLayoutEffect, useMemo, useState } from "react";
 import MyPagesLoad from "./MyPagesLoad";
@@ -96,7 +95,7 @@ export default function AllMovieReco({ params }) {
   if (recoMovies) {
     return (
       <div className="recommendPage container d-flex flex-column px-4 py-5">
-        <Image src={bgImg} fill alt="err" className="position-absolute start-0 w-100 h-100" style={{ zIndex: "-2" }} />
+        <Image src={"https://pub-7b3c4b6d7e7a4248b4faec6a06591b68.r2.dev/bgImg.jpeg"} fill alt="err" className="position-absolute start-0 w-100 h-100" style={{ zIndex: "-2" }} />
         <BackButton />
         <p className="main-color fs-3 red-bac mt-3 text-center main-rounded">Recommendations</p>
         <div className="d-flex flex-wrap position-relative" style={{ gap: "8px" }}>
