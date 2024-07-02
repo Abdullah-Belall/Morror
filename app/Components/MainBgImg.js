@@ -1,5 +1,4 @@
 import Image from "next/image";
-import bgImg from "@/public/Images/bgImg.jpg";
 
 export default function MainBgImg() {
   return (
