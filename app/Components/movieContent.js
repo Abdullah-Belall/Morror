@@ -3,7 +3,6 @@ import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from "axios";
 import Image from "next/image";
-import bgImg from "@/public/Images/bgImg.jpg";
 import { Button, CircularProgress } from "@mui/material";
 import AddTo from "./AddTo";
 import AddRate from "./AddRate";
